@@ -129,7 +129,7 @@ for i = 1:numPatients
         estimatedParams(i).gamma = gamma_est(:)'; % Ensures both row vector
         estimationSuccess(i) = true; % check as successful estimate
      end
-end % Fine loop pazienti
+end % End patient loop
 
 %% Saving datasets with parameters
 numSubjects = length(estimatedParams);
